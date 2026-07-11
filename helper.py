@@ -4,6 +4,10 @@ import pickle
 import distance
 import numpy as np
 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 from bs4 import BeautifulSoup
 from fuzzywuzzy import fuzz
 from nltk.corpus import stopwords
